@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml"
+xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOOTER</title>
+</head>
+<body>
+      <!-- FOOTER -->
+      <footer th:fragment="footer" class="container-fluid bg-dark-color" id="footer" style="background-color: white;padding: 20px">
+        <div class="container">
+          <div class="row">
+            <!-- FOOTER TOP -->
+            <div class="col-12" id="footer-top">
+              <div class="row justify-content-between">
+                <div class="col-4">
+                  <h2>
+                    <img src="img/logo.png" style="width:200px" alt="">
+                  </h2>
+                </div>
+                <div class="col-4" id="social-icons">
+                  <i class="bi bi-facebook"></i>
+                  <i class="bi bi-instagram"></i>
+                  <i class="bi bi-youtube"></i>
+                  <i class="bi bi-twitter"></i>
+                </div>
+              </div>
+            </div>
+            <!-- FOOTER DETAILS -->
+            <div class="col-12" id="footer-details">
+              <div class="row">
+                <div class="col-12 col-md-4" id="news-container">
+                  <h4>Fique por dentro das novidades</h4>
+                  <p class="secondary-color">
+                    Inscreva-se para saber em primeira mão
+                  </p>
+                  <form>
+                    <div class="mb-3">
+                      <input
+                        type="email"
+                        class="form-control"
+                        placeholder="Digite o seu e-mail"
+                      />
+                    </div>
+                    <button class="btn btn-dark">Inscrever</button>
+                  </form>
+                </div>
+                <div class="col-12 col-md-4" id="contact-container">
+                  <h4>Contato</h4>
+                  <p class="secondary-color">(16) 99100-0600</p>
+                  <p class="secondary-color">contato@cafeesilicio.com</p>
+                </div>
+                <div class="col-12 col-md-4" id="links-container">
+                  <div class="row">
+                    <h4>Seções</h4>
+                    <div class="col-6">
+                      <ul class="list-unstyled">
+                        <li><a href="#" class="secondary-color">Inicio</a></li>
+                        <li><a href="#" class="secondary-color">Contato</a></li>
+                        <li><a href="#" class="secondary-color">Recursos</a></li>
+                        <li><a href="#" class="secondary-color">Notícias</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-6">
+                      <ul class="list-unstyled">
+                        <li><a href="#" class="secondary-color">Curiosidades</a></li>
+                        <li><a href="#" class="secondary-color">Tutoriais</a></li>
+                        <li><a href="#" class="secondary-color">Links</a></li>
+                        <li><a href="#" class="secondary-color">Downloads</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- FOOTER BOTTOM -->
+            <div class="col-12" id="footer-bottom">
+              <div class="row justify-content-between">
+                  <p class="secondary-color" style="text-align: center;">Café&Silício &copy; 2022</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
